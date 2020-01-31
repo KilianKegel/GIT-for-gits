@@ -6,6 +6,7 @@ HowTo GIT for me, myself and IT
 * `git checkout BRANCHNAME/HASH` -> switch to branch<br>
 * `git merge BRANCHNAME/HASH` -> automatic merge<br>
 * `git mergetool` -> merge manually
+* `git submodule add <URL> <SUBDIR>`
 * `git submodule update --init --recursive`
 * `git reset --hard` -> last commited state of entire repository
 * `git log --simplify-by-decoration` -> list branches and tags only
