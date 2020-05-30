@@ -12,6 +12,7 @@ HowTo GIT for me, myself and IT
 * `git log --simplify-by-decoration` -> list branches and tags only
 * `git fetch`
 * `git pull`
+* `git checkout --patch BRANCHNAME file` -> merge a single file from a different branch
 
 ### exchange a submodule
 1. `git submodule deinit SUBDIR`
@@ -20,7 +21,7 @@ HowTo GIT for me, myself and IT
 4. `rd /s /q SUBDIR`
 5. `git submodule add <URL> SUBDIR`
 
-### move/upload locale GIT repo to GitHub
+### move/upload local GIT repo to GitHub
 1. `git remote -v`        -> list remotes
 2. `git remote rm origin` -> delete origin
 3. `git remote add origin <remote URL>` -> assign new origin
