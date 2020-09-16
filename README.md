@@ -13,6 +13,11 @@ HowTo GIT for me, myself and IT
 * `git fetch`
 * `git pull`
 * `git checkout --patch BRANCHNAME file` -> merge a single file from a different branch
+* `git tag <tag_name>` set tag_name
+* `git tag -a <tag_name> -m "message"`
+* `git tag` list tags
+* `git push --tags`
+
 
 ### exchange a submodule
 1. `git submodule deinit SUBDIR`
