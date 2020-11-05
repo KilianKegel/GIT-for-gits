@@ -4,6 +4,7 @@ HowTo GIT for me, myself and IT
 * `git branch -a` -> list all branches<br>
 * `git push -u origin BRANCHNAME` -> push new branch remotely/upstream<br>
 * `git checkout BRANCHNAME/HASH` -> switch to branch<br>
+* `git checkout <HASH> -- file.c` -> checkout a specific version of a file.c
 * `git merge BRANCHNAME/HASH` -> automatic merge<br>
 * `git mergetool` -> merge manually
 * `git submodule add <URL> <SUBDIR>`
