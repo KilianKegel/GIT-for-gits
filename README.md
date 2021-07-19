@@ -10,6 +10,7 @@ HowTo GIT for me, myself and IT
 * `git submodule add <URL> <SUBDIR>`
 * `git submodule update --init --recursive`
 * `git reset --hard` -> last commited state of entire repository
+* `git reset <PATH\FILE>` -> unstage a particular file
 * `git log --simplify-by-decoration` -> list branches and tags only
 * `git fetch`
 * `git pull`
