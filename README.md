@@ -1,4 +1,4 @@
-# GIT-for-gits
+# GIT-for-KGits
 HowTo GIT for me, myself and IT
 ### miscellaneous
 * `git branch -a` -> list all branches<br>
