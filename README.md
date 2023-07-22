@@ -1,5 +1,5 @@
 # GIT-for-KGits
-HowTo GIT for me, myself and IT
+HowTo GIT for me, myself and I...
 ### miscellaneous
 * `git branch -a` -> list all branches<br>
 * `git push -u origin BRANCHNAME` -> push new branch remotely/upstream<br>
