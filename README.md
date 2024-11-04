@@ -9,6 +9,7 @@ HowTo GIT for me, myself and I...
 * `git mergetool` -> merge manually
 * `git submodule add <URL> <SUBDIR>`
 * `git submodule update --init --recursive`
+* `git -c submodule.UnitTestFrameworkPkg/Library/SubhookLib/subhook.update=none submodule update --init --recursive` -> skip broken submodule UnitTestFrameworkPkg/Library/SubhookLib/subhook
 * `git reset --hard` -> last commited state of entire repository
 * `git reset <PATH\FILE>` -> unstage a particular file
 * `git log --simplify-by-decoration` -> list branches and tags only
