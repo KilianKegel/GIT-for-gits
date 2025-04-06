@@ -20,6 +20,7 @@ HowTo GIT for me, myself and I...
 * `git tag -a <tag_name> -m "message"`
 * `git tag` list tags
 * `git push --tags`
+* `git push origin --delete main` -> delete remote branch main
 
 
 ### exchange a submodule
