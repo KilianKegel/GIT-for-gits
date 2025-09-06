@@ -1,5 +1,5 @@
 # GIT-for-KGits
-HowTo GIT for me, myself and I...
+HowTo GIT for me, myself and I . . .
 ### miscellaneous
 * `git branch -a` -> list all branches<br>
 * `git push -u origin BRANCHNAME` -> push new branch remotely/upstream<br>
@@ -22,6 +22,9 @@ HowTo GIT for me, myself and I...
 * `git push --tags`
 * `git push origin --delete main` -> delete remote branch main
 
+### ignoring submodule changes in a superproject
+1. git config -f .gitmodules submodule.SUBMOD.ignore dirty
+2. git submodule sync --recursive
 
 ### exchange a submodule
 1. `git submodule deinit SUBDIR`
