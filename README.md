@@ -23,7 +23,7 @@ HowTo GIT for me, myself and I . . .
 * `git push origin --delete main` -> delete remote branch main
 
 ### upload repo to new remote URL
-git remote set-url origin <REMOTEURL>
+* `git remote set-url origin <REMOTEURL>`
 
 ### ignoring submodule changes in a superproject
 1. git config -f .gitmodules submodule.SUBMOD.ignore dirty
